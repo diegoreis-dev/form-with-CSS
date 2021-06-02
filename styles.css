@@ -1,0 +1,305 @@
+*{
+    box-sizing:border-box;
+    background-color: #000000;
+    font-family: 'Nunito', sans-serif;
+}
+
+.border {
+    border-width: 25px;
+    border-style: double;
+    border-color: rgb(13, 10, 187);
+}
+
+legend {
+    color: #FF1100;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+
+.name {
+    display: block;
+    color: #911080;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 10px 5px 5px 50px;
+    padding: auto;
+    border: #F0F5F5;
+}
+
+.input-name {
+    display: block;
+    margin: 5px 5px 5px 50px;
+    border-width: 3px;
+    border-color: #F0F5F5;
+    background-color: chartreuse;
+}
+
+.email {
+    display: block;
+    color: #911080;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 10px 5px 5px 50px;
+    }
+
+    .input-email {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse;
+    }
+
+    .age {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-age {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse;
+    }
+
+    .birth-date {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-birth-date {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse;
+    }
+
+    .where-have-account {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .instagram {
+        display:inline;
+        color: red;
+        font-size: 12px;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+    }
+
+    .name-instagram {
+        color: red;
+        font-size: 15px;
+    }
+
+    .facebook {
+        display:inline;
+        margin: 5px 5px 5px 50px;
+        font-size: 12px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+    }
+
+    .name-facebook {
+        color: red;
+        font-size: 15px;
+    }
+
+    .youtube {
+        display:inline;
+        margin: 5px 5px 5px 50px;
+        font-size: 12px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+    }
+
+    .name-youtube {
+        color: red;
+        font-size: 15px;
+    }
+
+    .sex {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-male {
+        display:inline;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse;        
+    }
+
+    .name-male {
+        color: red;
+        font-size: 15px;
+    }
+    
+    .input-female {
+        display:inline;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5; 
+        background-color: chartreuse;       
+    }
+
+    .name-female {
+        color: red;
+        font-size: 15px;
+    }
+
+    .eye-color {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+        border-color: #F0F5F5; 
+    }
+
+    .input-eye-color {
+        background-color: #F0F5F5;
+        border-width: 1px;
+        border-color: #F0F5F5;
+        margin: 5px 5px 5px 10px;
+    }
+
+    .bibliography {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .textarea {
+        display: block;
+        margin: 10px 5px 5px 5px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse;
+    }
+
+    .profile-picture {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-profile-picture {
+        display: block;
+        margin: 10px 5px 5px 50px;
+        background-color: chartreuse;
+    }
+
+    .telephone {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-telephone {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse; 
+    }
+
+    .facebook-profile-link {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;        
+    }
+
+    .input-facebook-profile-link {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse; 
+    }
+
+    .password {
+        display: block;
+        color: #911080;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10px 5px 5px 50px;
+    }
+
+    .input-password {
+        display: block;
+        margin: 5px 5px 5px 50px;
+        border-width: 3px;
+        border-color: #F0F5F5;
+        background-color: chartreuse; 
+    }
+
+    .clean {
+        display: inline;
+        margin: 5px 5px 5px 50px;
+        background-color: #5CECF6;
+        cursor: pointer; 
+        border-width: 3px;
+        border-color: #F0F5F5;        
+    }
+
+    .send-data {
+        display: inline;
+        margin: 5px 5px 5px 5px;
+        background-color: #5CECF6;
+        cursor: pointer;
+        border-width: 3px;
+        border-color: #F0F5F5;     
+    }
+

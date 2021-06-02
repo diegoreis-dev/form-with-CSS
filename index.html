@@ -1,0 +1,120 @@
+<!-- REQUISITOS DO DESAFIO
+    [ ] Retirar todas as tags <br> e manter o layout sem alterações visuais
+    [ ] Tirar o fieldset e manter o layout sem alterações visuais
+
+        - Ao passar o mouse sobre os botões de Limpar e Enviar Dados:
+    [x] Trocar a cor do fundo
+    [ ] Aumentar o botão
+    [x] Trocar a cor da letra
+    [x] Trocar a cor da borda
+    [ ] O cursor terá que ser o da "mãozinha"
+
+    [x] Alterar cores da borda de todos os inputs
+    [ ] Alterar a fonte do projeto para "Nunito"
+    [ ] Alterar o background do formulário
+    [ ] Alterar a cor e tamanho dos textos dos Labels   
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Nunito & display = swap" rel = "folha de estilo ">
+    <title>Challenge 1-CSS</title>
+</head>
+
+<body class="border">
+
+    <legend>CSS Style</legend>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <label class="name" for="nome"><b>Nome</b></label>
+
+
+        <input class="input-name" type="text" name="nome" id="nome" required autofocus placeholder="Digite seu nome">
+
+        <label class="email" for="email"><b>Email</b></label>
+
+        <input class="input-email" type="email" name="email" id="email" required autofocus
+            placeholder="Digite seu e-mail">
+
+
+        <label class="age" for="idade"><b>Idade</b></label>
+
+        <input class="input-age" type="number" name="idade" id="idade" required min="12" autocomplete="age" autofocus
+            placeholder="Digite sua idade">
+
+        <label class="birth-date" for="data-nascimento"><b>Data de Nascimento</b></label>
+
+        <input class="input-birth-date" type="date" name="data-nascimento" id="data-nascimento" required>
+
+
+        <label class="where-have-account"><b> Onde você possui conta:</b></label>
+        <label class="name-instagram">
+            <input class="instagram" type="checkbox" name="instagram">
+            Instagram
+        </label>
+
+        <label class="name-facebook">
+            <input class="facebook" type="checkbox" name="facebook">
+            Facebook
+        </label>
+
+        <label class="name-youtube">
+            <input class="youtube" type="checkbox" name="youtube">
+            Youtube
+        </label>
+
+        <label class="sex"><b>Sexo</b></label>
+        <label class="name-male">
+            <input class="input-male" type="radio" name="genero" value="masculino">
+            Masculino
+        </label>
+
+        <label class="name-female">
+            <input class="input-female" type="radio" name="genero" value="feminino">
+            Feminio
+        </label>
+
+
+        <label class="eye-color"><b>Cor dos Olhos</b>
+            <input class="input-eye-color" type="color" name="cor-dos-olhos" />
+        </label>
+
+        <label class="bibliography"><b>Bibliografia</b>
+            <textarea class="textarea" name="bio"></textarea>
+        </label>
+
+
+        <label class="profile-picture"><b>Foto de perfil</b></label>
+        <input class="input-profile-picture" type="file" name="arquivo" accept="image/*">
+
+        <label class="telephone"><b>Telefone</b></label>
+        <input class="input-telephone" type="tel" name="telefone">
+
+
+        <label class="facebook-profile-link"><b>Link do Perfil do Facebook</b></label>
+        <input class="input-facebook-profile-link" type="url" name="url">
+
+
+        <label class="password"><b>Senha</b></label>
+        <input class="input-password" type="password" name="senha" minlength="6" maxlength="8" required>
+
+
+        <button class="clean" type="reset" name="reset">Limpar</button>
+        <button class="send-data" type="submit" name="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+
+</html>
