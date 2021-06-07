@@ -285,21 +285,25 @@ legend {
         background-color: chartreuse; 
     }
 
-    .clean {
-        display: inline;
-        margin: 5px 5px 5px 50px;
-        background-color: #5CECF6;
-        cursor: pointer; 
-        border-width: 3px;
-        border-color: #F0F5F5;        
+    button {
+        cursor: pointer;
+        background-color: beige;
     }
 
-    .send-data {
+    .clean:hover {
         display: inline;
-        margin: 5px 5px 5px 5px;
+        margin-left: 50px;
+        width: 110px;
+        height: 30px;
         background-color: #5CECF6;
-        cursor: pointer;
-        border-width: 3px;
-        border-color: #F0F5F5;     
+        border: 2px solid #b30b0b;                
+    }
+
+    .send-data:hover {
+        display: inline;
+        width: 110px;
+        height: 30px;
+        background-color: #5CECF6;
+        border: 2px solid #b30b0b;    
     }
 
